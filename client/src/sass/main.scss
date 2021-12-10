@@ -1,0 +1,62 @@
+@import './variable.scss';
+
+@import './components/home';
+@import './components/about';
+@import './components/education';
+@import './components/interests';
+@import './components/work';
+@import './components/contact';
+
+//blog scss files
+@import './components/blog/eachBlog';
+@import './components/blog/blog-editor';
+@import './components/blog/all-blog-page';
+@import './components/blog/blog-card';
+@import './components/blog/showcase-blog';
+@import './components/blog/blog-container';
+
+//admin css file
+@import './admin/file';
+
+//scroll bar
+@import './components/scrollbar';
+
+//loading component
+@import './components/loading';
+
+//modal
+@import './components/modal';
+
+//dropdown
+@import './components/dropdown';
+
+//chart
+@import './components/chart';
+
+//table
+@import './components/table';
+
+//radio button
+@import './components/radio';
+
+//carousel
+@import './components/carousel';
+
+//developer blog
+@import './components/blog/dblog';
+
+@import './components/ripple';
+
+@import './components/blog/dev-admin';
+
+@import './components/blog/each-dev-page';
+
+@import './components/blog/footer';
+
+html {
+    scroll-behavior: smooth;
+}
+
+// body {
+//     background-color: #001015 !important;
+// }

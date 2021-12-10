@@ -1,0 +1,111 @@
+.blog-card {
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    border-radius: 0.4rem;
+    margin: 1.5rem 0;
+    transition: all 0.3s;
+    width: 360px;
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+        transform: translateY(-7px);
+    }
+}
+
+.blog-card-initial-line {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+
+.blog-card-image {
+    width: 100%;
+    height: 250px !important;
+    object-fit: cover;
+    transition: all 0.3s;
+    &:hover {
+        opacity: 0.86;
+    }
+}
+
+.blog-card-trip-duration {
+    text-align: center;
+    color: rgb(224, 163, 83);
+}
+
+.blog-card-title {
+    font-size: 24px;
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.blog-author {
+    padding-left: 0.3rem;
+    font-size: 13px;
+    margin-bottom: 0;
+    font-family: $font-4;
+    margin-top: 0.8rem;
+    color: rgb(114, 114, 114);
+}
+
+.blog-card-end-line {
+    width: 40%;
+    margin-top: 1.4rem;
+    height: 1px;
+    background-color: rgb(226, 226, 226);
+}
+
+.blog-card-content {
+    font-size: 18px;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    font-family: 'Lato';
+    width: 97%;
+    margin: 0 auto;
+    color: rgb(73, 73, 73);
+}
+
+.rs-timeline {
+    margin-bottom: 3.5rem;
+}
+//timeline styling (left line)
+.rs-timeline-item-dot {
+    &:before {
+        border-radius: 8px !important;
+        background-color: #c4c4c4 !important;
+        width: 11px;
+        height: 11px;
+    }
+    
+}
+// .timeline-container {
+//     height: 80vh;
+// }
+/*timeline tail*/
+.rs-timeline-item-tail {
+    width: 3px;
+    background-color: #c4c4c4 !important;
+}
+.rs-timeline-item {
+    font-family:$font-2;
+    h1 {
+        color: #494949;
+        font-size: 40px;
+        font-weight:900;
+        font-family: 'Ubuntu';
+    }
+    h6 {
+        color: #8B8B8B;
+        font-weight: 900;
+        font-size: 13px;
+    }
+    .blog_story_section {
+        margin-top: 0.5rem;
+        max-width: 87%;
+        color: #5E5858;
+        font-weight: 800;
+        font-family: 'Ubuntu';
+    }
+}

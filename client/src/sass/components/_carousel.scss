@@ -1,0 +1,41 @@
+.slick-arrow {
+    z-index: 10001;
+    // background-color: black !important;
+}
+.slick-next {
+    // background-color: black !important;
+}
+
+// slick-arrow slick-next 
+.slick-disabled {
+    background-color: black;
+}
+// .slick-track {
+// width: 100% !important;
+// }
+
+.slick-slider {
+    display: flex;
+}
+
+.arrow-right,
+.arrow-left{
+  display: block;
+//   margin: 30px auto;
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+}
+.arrow-right {
+ transform: rotate(135deg);
+}
+.arrow-left {
+ transform: rotate(-45deg);
+}
+
+.travel-carousel-read-more {
+    font-size: 15px;
+    font-family: $font-4;
+    color: grey;
+}
